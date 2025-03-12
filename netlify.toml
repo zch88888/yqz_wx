@@ -1,5 +1,8 @@
-11111
-3434
-3434
-333
-4411
+[build]
+command = "npm run build"
+publish ="/build"
+base ="/"
+[[redirects]]
+from ="/*"
+to ="/index.html'
+status =200
